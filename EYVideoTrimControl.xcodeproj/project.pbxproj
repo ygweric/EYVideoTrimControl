@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FDD54C31ADFC07F004DFAA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD54C21ADFC07F004DFAA8 /* AppDelegate.m */; };
+		5FDD54C51ADFC07F004DFAA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD54C41ADFC07F004DFAA8 /* main.m */; };
+		5FDD54C71ADFC07F004DFAA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDD54C61ADFC07F004DFAA8 /* Images.xcassets */; };
+		5FDD54CA1ADFC07F004DFAA8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FDD54C81ADFC07F004DFAA8 /* MainMenu.xib */; };
+		5FDD54E21ADFC0B8004DFAA8 /* EYVideoTrimControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD54E11ADFC0B8004DFAA8 /* EYVideoTrimControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FDD54BC1ADFC07F004DFAA8 /* EYVideoTrimControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EYVideoTrimControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FDD54C01ADFC07F004DFAA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FDD54C11ADFC07F004DFAA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FDD54C21ADFC07F004DFAA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FDD54C41ADFC07F004DFAA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FDD54C61ADFC07F004DFAA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5FDD54C91ADFC07F004DFAA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5FDD54E01ADFC0B8004DFAA8 /* EYVideoTrimControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EYVideoTrimControl.h; sourceTree = "<group>"; };
+		5FDD54E11ADFC0B8004DFAA8 /* EYVideoTrimControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EYVideoTrimControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FDD54B91ADFC07F004DFAA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FDD54B31ADFC07F004DFAA8 = {
+			isa = PBXGroup;
+			children = (
+				5FDD54BE1ADFC07F004DFAA8 /* EYVideoTrimControl */,
+				5FDD54BD1ADFC07F004DFAA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FDD54BD1ADFC07F004DFAA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FDD54BC1ADFC07F004DFAA8 /* EYVideoTrimControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FDD54BE1ADFC07F004DFAA8 /* EYVideoTrimControl */ = {
+			isa = PBXGroup;
+			children = (
+				5FDD54C11ADFC07F004DFAA8 /* AppDelegate.h */,
+				5FDD54C21ADFC07F004DFAA8 /* AppDelegate.m */,
+				5FDD54C61ADFC07F004DFAA8 /* Images.xcassets */,
+				5FDD54C81ADFC07F004DFAA8 /* MainMenu.xib */,
+				5FDD54DF1ADFC0B8004DFAA8 /* EYVideoTrimControl */,
+				5FDD54BF1ADFC07F004DFAA8 /* Supporting Files */,
+			);
+			path = EYVideoTrimControl;
+			sourceTree = "<group>";
+		};
+		5FDD54BF1ADFC07F004DFAA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FDD54C01ADFC07F004DFAA8 /* Info.plist */,
+				5FDD54C41ADFC07F004DFAA8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FDD54DF1ADFC0B8004DFAA8 /* EYVideoTrimControl */ = {
+			isa = PBXGroup;
+			children = (
+				5FDD54E01ADFC0B8004DFAA8 /* EYVideoTrimControl.h */,
+				5FDD54E11ADFC0B8004DFAA8 /* EYVideoTrimControl.m */,
+			);
+			path = EYVideoTrimControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FDD54BB1ADFC07F004DFAA8 /* EYVideoTrimControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FDD54D91ADFC07F004DFAA8 /* Build configuration list for PBXNativeTarget "EYVideoTrimControl" */;
+			buildPhases = (
+				5FDD54B81ADFC07F004DFAA8 /* Sources */,
+				5FDD54B91ADFC07F004DFAA8 /* Frameworks */,
+				5FDD54BA1ADFC07F004DFAA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EYVideoTrimControl;
+			productName = EYVideoTrimControl;
+			productReference = 5FDD54BC1ADFC07F004DFAA8 /* EYVideoTrimControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FDD54B41ADFC07F004DFAA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = www.appcpu.com;
+				TargetAttributes = {
+					5FDD54BB1ADFC07F004DFAA8 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 5FDD54B71ADFC07F004DFAA8 /* Build configuration list for PBXProject "EYVideoTrimControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FDD54B31ADFC07F004DFAA8;
+			productRefGroup = 5FDD54BD1ADFC07F004DFAA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FDD54BB1ADFC07F004DFAA8 /* EYVideoTrimControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FDD54BA1ADFC07F004DFAA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDD54C71ADFC07F004DFAA8 /* Images.xcassets in Resources */,
+				5FDD54CA1ADFC07F004DFAA8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FDD54B81ADFC07F004DFAA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDD54C51ADFC07F004DFAA8 /* main.m in Sources */,
+				5FDD54C31ADFC07F004DFAA8 /* AppDelegate.m in Sources */,
+				5FDD54E21ADFC0B8004DFAA8 /* EYVideoTrimControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FDD54C81ADFC07F004DFAA8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FDD54C91ADFC07F004DFAA8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FDD54D71ADFC07F004DFAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5FDD54D81ADFC07F004DFAA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5FDD54DA1ADFC07F004DFAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EYVideoTrimControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FDD54DB1ADFC07F004DFAA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EYVideoTrimControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FDD54B71ADFC07F004DFAA8 /* Build configuration list for PBXProject "EYVideoTrimControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDD54D71ADFC07F004DFAA8 /* Debug */,
+				5FDD54D81ADFC07F004DFAA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FDD54D91ADFC07F004DFAA8 /* Build configuration list for PBXNativeTarget "EYVideoTrimControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDD54DA1ADFC07F004DFAA8 /* Debug */,
+				5FDD54DB1ADFC07F004DFAA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FDD54B41ADFC07F004DFAA8 /* Project object */;
+}
